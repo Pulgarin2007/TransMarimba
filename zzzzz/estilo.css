@@ -1,0 +1,617 @@
+/* Estilos CSS aquí */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #0e0a0a;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    color: orangered;
+    text-shadow: 0 0 25px orangered, 0 0 50px orangered;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contact {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.contact:hover {
+    background-color: white;
+    color: black;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 12%;
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+.home-content {
+    width: 50%;
+}
+
+.home-content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-box {
+    margin-top: 30px;
+}
+
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4,
+.btn-5,
+.btn-6,
+.btn_7 {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-right: 20px;
+    
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover,
+.btn-5:hover,
+.btn-6:hover,
+.btn-7:hover {
+    background-color: white;
+    color: black;
+     border: 2px solid black;
+}
+
+.img-box {
+    width: 40%;
+    text-align: center;
+}
+
+.img-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 12%;
+    background-color: #f9f9f9;
+}
+
+.about-img,
+.about-content {
+    width: 45%;
+}
+
+.about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-content video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mision-vision {
+    padding: 100px 12%;
+    background-color: #fff;
+}
+
+.mision-vision h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.mision-vision p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.mision-vision .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.mision-vision .box .content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.mision-vision .box h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.mision-vision .box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.mapa {
+    padding: 100px 12%;
+    background-color: #f9f9f9;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    padding: 100px 12%;
+    background-color: #fff;
+}
+
+.contact-form h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: calc(50% - 10px);
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    outline: none;
+    border-color: orangered;
+}
+
+.input-box textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.social {
+    background-color: #333;
+    padding: 20px 12%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    margin-right: 20px;
+}
+
+.list li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.list li a:hover {
+    color: orangered;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Media Queries para diferentes tamaños de pantalla */
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .mision-vision,
+    .header {
+        padding: 80px 5%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar a {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home {
+        padding: 80px 5%;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .btn-1,
+    .btn-2,
+    .btn-3,
+    .btn-4,
+    .btn-5,
+    .btn-6,
+    .btn_7 {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about {
+        padding: 80px 5%;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .mision-vision {
+        padding: 80px 5%;
+    }
+
+    .mision-vision h2 {
+        font-size: 28px;
+    }
+
+    .mision-vision p {
+        font-size: 16px;
+    }
+
+    .mapa {
+        padding: 80px 5%;
+    }
+
+    .contact-form {
+        padding: 80px 5%;
+    }
+
+    .contact-form h2 {
+        font-size: 28px;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .contact {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 60px 5%;
+    }
+
+    .home-content {
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .btn-1,
+    .btn-2,
+    .btn-3,
+    .btn-4,
+    .btn-5,
+    .btn-6,
+    .btn_7 {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 60px 5%;
+    }
+
+    .about-img,
+    .about-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .mision-vision {
+        padding: 60px 5%;
+    }
+
+    .mision-vision h2 {
+        font-size: 24px;
+    }
+
+    .mision-vision p {
+        font-size: 16px;
+    }
+
+    .mapa {
+        padding: 60px 5%;
+    }
+
+    .contact-form {
+        padding: 60px 5%;
+    }
+
+    .contact-form h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .contact {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home {
+        padding: 50px 5%;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .btn-1,
+    .btn-2,
+    .btn-3,
+    .btn-4,
+    .btn-5,
+    .btn-6,
+    .btn_7 {
+        padding: 8px 16px;
+        font-size: 12px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about {
+        padding: 50px 5%;
+    }
+
+    .about-content h2 {
+        font-size: 22px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    .mision-vision {
+        padding: 50px 5%;
+    }
+
+    .mision-vision h2 {
+        font-size: 22px;
+    }
+
+    .mision-vision p {
+        font-size: 14px;
+    }
+
+    .mapa {
+        padding: 50px 5%;
+    }
+
+    .contact-form {
+        padding: 50px 5%;
+    }
+
+    .contact-form h2 {
+        font-size: 22px;
+    }
+}
